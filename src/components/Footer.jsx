@@ -12,7 +12,7 @@ const Footer = () => {
           <a href="#contact" className="text-secondary hover:text-white">Contact</a>
         </div>
         <div className="text-secondary text-[14px]">
-          &copy; {currentYear} Stephen Prahl Jr. All rights reserved.
+          &copy; {currentYear} Stevie732 - All rights reserved.
         </div>
       </div>
     </footer>

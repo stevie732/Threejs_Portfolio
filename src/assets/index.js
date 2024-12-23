@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -21,24 +20,17 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import Executive from "./company/executive.png";
+import Freelance from "./company/freelance2.jpg";
+import MTR from "./company/mtrmechanical.png";
+import Software from "./company/software.png";
 
 import portfolio from "./portfolio.png";
 import weblink from "./weblink.png";
-import currency from "./currency.png";
-import poke_api from "./poke_api.png";
-import tetris from "./tetris.png";
-import carport from "./carport.png";
-import pokemon from "./pokemon.png";
 import bookfair from "./bookfair.png";
 import animeapi from "./animeapi.png";
-import steviegpt from "./steviegpt.png"
 import XORA from "./XORA.png";
 export {
-  logo,
   backend,
   creator,
   mobile,
@@ -59,19 +51,12 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  portfolio,
   weblink,
-  currency,
-  poke_api,
-  tetris,
-  carport,
-  pokemon,
   bookfair,
   animeapi,
-  steviegpt,
   XORA,
+  Executive,
+  Freelance,
+  MTR,
+  Software,
 };

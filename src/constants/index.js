@@ -15,20 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  portfolio,
   threejs,
-  currency,
-  poke_api,
-  tetris,
-  pokemon,
   bookfair,
   animeapi,
-  steviegpt,
   XORA,
+  Executive,
+  Freelance,
+  MTR,
+  Software,
 } from "../assets";
 
 export const navLinks = [
@@ -122,55 +116,54 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Fullstack Developer",
+    company_name: "Executive Enterprise",
+    icon: Executive,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2019 - September 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developed predictive models using Python, achieving an 85% accuracy rate for customer churn analysis.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Bult UI/UX, performed error-handling, and maintained company website.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Fullstack Developer",
+    company_name: "Freelance Contract",
+    icon: Freelance,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2022 - Dec 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "My expertise in creating scalable, user-friendly web applications aligned with the client'sneed for a modern and efficient application.",
+      "Build server actions using Next.js 14's new server components feature.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Backend Developer",
+    company_name: "MTR Mechanical",
+    icon: MTR,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Feb 2020 - Aug 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Used Python to maintain the backend of the company website.",
+      "Provided expertise in error handling, debugging platform related issues.",
+      "While using RESTful API's, made sure the company remained online.",
+      "Implemented PostgreSQL to input data for financial revenue and information.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Frontend Developer",
+    company_name: "WickedAI",
+    icon: Software,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "My ability to design and implement scalable API's combined with strong database management expertise allowed the client to streamline their operations and enhance user experience.",
+      "Built modern React SaaS applications using a component base architecture and React-specific libraries for enhanced functionality.",
+      "Took the role of a Frontend Developer/Engineer, building out a professional SaaS landing page with modern web technologies and best practice.",
     ],
   },
 ];
@@ -178,170 +171,60 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Stephen proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
-    company: "Acme Co",
+    company: "Executive Enterprise",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Stephen does.",
     name: "Chris Brown",
     designation: "COO",
-    company: "DEF Corp",
+    company: "MTR Mechanical",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Stephen optimized our website, our traffic increased by 50%. We can't thank him enough!",
     name: "Lisa Wang",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "WickedAI",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
-  {
-    name: "Currency API",
-    description:
-      "A personal portfolio website displaying the talent and bio of a creative artist. It provides in detail who they are, what they do, and the services that they provide.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: currency,
-    source_code_link: "https://github.com/stevie732/next.js_stevie732.git",
-    web_link: "https://stephenprahl.vercel.app"
-  },
-    {
-    name: "Portfolio",
-    description:
-      "A personal portfolio website displaying the talent and bio of a creative artist. It provides in detail who they are, what they do, and the services that they provide.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: portfolio,
-    source_code_link: "https://github.com/stevie732/next.js_stevie732.git",
-    web_link: "https://stephenprahl.vercel.app"
-  },
-    {
-    name: "Pokemon API",
-    description:
-      "A personal portfolio website displaying the talent and bio of a creative artist. It provides in detail who they are, what they do, and the services that they provide.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: poke_api,
-    source_code_link: "https://github.com/stevie732/next.js_stevie732.git",
-    web_link: "https://stephenprahl.vercel.app"
-  },
-    {
-    name: "Tetris",
-    description:
-      "A personal portfolio website displaying the talent and bio of a creative artist. It provides in detail who they are, what they do, and the services that they provide.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tetris,
-    source_code_link: "https://github.com/stevie732/next.js_stevie732.git",
-    web_link: "https://stephenprahl.vercel.app"
-  },
-    {
-    name: "Pokemon Website",
-    description:
-      "A personal portfolio website displaying the talent and bio of a creative artist. It provides in detail who they are, what they do, and the services that they provide.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: pokemon,
-    source_code_link: "https://github.com/stevie732/next.js_stevie732.git",
-    web_link: "https://stephenprahl.vercel.app"
-  },
     {
     name: "Bookfair Website",
     description:
-      "A personal portfolio website displaying the talent and bio of a creative artist. It provides in detail who they are, what they do, and the services that they provide.",
+      "A fullstack project involving flask, python, and bootstrap. Also acts as an api in which secrets, and tokens are applied along with postgresql.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "Flask",
+        color: "orange-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "PostgreSQL",
         color: "pink-text-gradient",
       },
     ],
     image: bookfair,
-    source_code_link: "https://github.com/stevie732/next.js_stevie732.git",
-    web_link: "https://stephenprahl.vercel.app"
+    source_code_link: "https://github.com/stevie732/Flask-Bookfair.git",
+    web_link: "https://bookfair-cww7.onrender.com"
   },
     {
-    name: "Anime Website API",
+    name: "Anime Discover",
     description:
-      "A personal portfolio website displaying the talent and bio of a creative artist. It provides in detail who they are, what they do, and the services that they provide.",
+      "This project was built using nextjs and is an anime comic book cover application that fetches them using an API.",
     tags: [
       {
-        name: "nextjs",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -354,42 +237,20 @@ const projects = [
       },
     ],
     image: animeapi,
-    source_code_link: "https://github.com/stevie732/next.js_stevie732.git",
-    web_link: "https://stephenprahl.vercel.app"
-  },
-    {
-    name: "StevieGPT",
-    description:
-      "A personal portfolio website displaying the talent and bio of a creative artist. It provides in detail who they are, what they do, and the services that they provide.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: steviegpt,
-    source_code_link: "https://github.com/stevie732/next.js_stevie732.git",
-    web_link: "https://stephenprahl.vercel.app"
+    source_code_link: "https://github.com/stevie732/Anime-Discovery.git",
+    web_link: "https://anime-api-three-black.vercel.app"
   },
     {
     name: "XORA SaaS",
     description:
-      "A personal portfolio website displaying the talent and bio of a creative artist. It provides in detail who they are, what they do, and the services that they provide.",
+      "A software as a service(SaaS) application applying a fullstack approach using nextjs, typescript, and tailwind.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "Nextjs",
+        color: "orange-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
@@ -398,8 +259,8 @@ const projects = [
       },
     ],
     image: XORA,
-    source_code_link: "https://github.com/stevie732/next.js_stevie732.git",
-    web_link: "https://stephenprahl.vercel.app"
+    source_code_link: "https://github.com/stevie732/XORA_SaaS.git",
+    web_link: "https://xora-saas-one.vercel.app"
   },
 ];
 
