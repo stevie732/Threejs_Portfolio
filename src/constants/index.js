@@ -19,10 +19,10 @@ import {
   bookfair,
   animeapi,
   XORA,
+  Panpalz,
   Executive,
-  Freelance,
-  MTR,
-  Software,
+  Fiverr,
+  Upwork,
 } from "../assets";
 
 export const navLinks = [
@@ -116,59 +116,70 @@ const technologies = [
 
 const experiences = [
   {
+    title: "React Native Developer",
+    company_name: "Panpalz",
+    icon: Panpalz,
+    iconBg: "#E6DEDD",
+    date: "December 2024 - January 2025",
+    points: [
+      "Built cross-platform interfaces with React-Native and Expo, contributing to company standards while exploring personal growth.",
+      "Optimized and maintained continuous workflow while recognized as a resillient problem-solver and high-impact performer committed to excellence.",
+      "Demonstrated resilience, versatility, and unwavering commitment exceeding expectations, earning a reputation for being a reliable problem-solver and high-impact performer.",
+      "Empowered junior and senior developers with expert guidance and support, driving innovation and excellence across frontend and backend projects.",
+      "Excelled in a dynamic, high-pressure environment by rapidly adapting to shifting priorities, managing heavy workloads with precision, consistently delivering exceptional outcomes.",
+    ],
+  },
+  {
     title: "Fullstack Developer",
     company_name: "Executive Enterprise",
     icon: Executive,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "March 2019 - September 2024",
     points: [
-      "Developed predictive models using Python, achieving an 85% accuracy rate for customer churn analysis.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Bult UI/UX, performed error-handling, and maintained company website.",
+      "Utilized Python and machine learning methodologies to construct and deploy predictive models for customer churn, leading to a significant imporvement in customer retention.",
+      "Achieved an 85% accuracy rate in identifying at-risk customers, enabling proactive retention strategies and driving a substantial increase in customer lifetime value.",
+      "Crafted intuitive user interfaces with React and Bootstrap, increasing user satisfaction by 20%.",
+      "Engineered real-time solutions for business-critical issues, boosting system reliability and cutting downtime by 30%.",
+      "Partnered with cross-functional teams to ensure timely and budget-conscious project completion.",
     ],
   },
   {
     title: "Fullstack Developer",
-    company_name: "Freelance Contract",
-    icon: Freelance,
+    company_name: "Fiverr",
+    icon: Fiverr,
     iconBg: "#E6DEDD",
-    date: "Jun 2022 - Dec 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "My expertise in creating scalable, user-friendly web applications aligned with the client'sneed for a modern and efficient application.",
-      "Build server actions using Next.js 14's new server components feature.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Backend Developer",
-    company_name: "MTR Mechanical",
-    icon: MTR,
-    iconBg: "#383E56",
     date: "Feb 2020 - Aug 2021",
     points: [
-      "Used Python to maintain the backend of the company website.",
-      "Provided expertise in error handling, debugging platform related issues.",
-      "While using RESTful API's, made sure the company remained online.",
-      "Implemented PostgreSQL to input data for financial revenue and information.",
+      "Devised scalable APIs and databases using MongoDB to enhance operational efficiency.",
+      "Constructed React-bases SaaS applications employing component-driven architecture, boosting user engagement by 15%.",
+      "Spearheaded the development of a high-conversion SaaS landing page, achieving a 20% conversion rate.",
+      "Applied responsive design principles for an optimal cross-device user experience.",
+      "Kept pace with emerging frontend technologies and industry advancements to ensure continuous professional growth.",
     ],
   },
   {
     title: "Frontend Developer",
-    company_name: "WickedAI",
-    icon: Software,
+    company_name: "Upwork",
+    icon: Upwork,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - May 2023",
     points: [
-      "My ability to design and implement scalable API's combined with strong database management expertise allowed the client to streamline their operations and enhance user experience.",
-      "Built modern React SaaS applications using a component base architecture and React-specific libraries for enhanced functionality.",
-      "Took the role of a Frontend Developer/Engineer, building out a professional SaaS landing page with modern web technologies and best practice.",
+      "Delivered tailored web applications for clients using NextJS and its server components.",
+      "Oversaw ongoing maintenance to ensure peak performance and user satisfaction.",
+      "Balanced multiple projects with efficient time management and organizational skills.",
     ],
   },
 ];
 
 const testimonials = [
+  {
+    testimonial:
+      "Stephen was an inspiration to our team, he is a hard, and creative worker who does exceptionally well under pressure in a high pace environment. We were lucky to have him onboard with Panpalz.",
+    name: "Sofia S",
+    designation: "Tech Lead",
+    company: "Panpalz",
+    image: "https://randomuser.me/api/portraits/women/21.jpg",
+  },
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Stephen proved me wrong.",
@@ -181,8 +192,8 @@ const testimonials = [
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Stephen does.",
     name: "Chris Brown",
-    designation: "COO",
-    company: "MTR Mechanical",
+    designation: "CEO",
+    company: "Fiverr",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
@@ -190,7 +201,7 @@ const testimonials = [
       "After Stephen optimized our website, our traffic increased by 50%. We can't thank him enough!",
     name: "Lisa Wang",
     designation: "CTO",
-    company: "WickedAI",
+    company: "Upwork",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];

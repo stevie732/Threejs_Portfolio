@@ -43,8 +43,8 @@ const Navbar = () => {
           }}
         >
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Stevie732 &nbsp;
-            <span className='sm:block hidden'> | Developer</span>
+            Stephen Prahl &nbsp;
+            <span className='sm:block hidden'> | Software Engineer</span>
           </p>
         </Link>
 

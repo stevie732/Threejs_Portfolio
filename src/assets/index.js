@@ -20,12 +20,11 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import Executive from "./company/executive.png";
-import Freelance from "./company/freelance2.jpg";
-import MTR from "./company/mtrmechanical.png";
-import Software from "./company/software.png";
+import Panpalz from "./company/panpalz.svg";
+import Executive from "./company/executive.svg";
+import Fiverr from "./company/fiverr.svg";
+import Upwork from "./company/upwork.webp";
 
-import portfolio from "./portfolio.png";
 import weblink from "./weblink.png";
 import bookfair from "./bookfair.png";
 import animeapi from "./animeapi.png";
@@ -55,8 +54,8 @@ export {
   bookfair,
   animeapi,
   XORA,
+  Panpalz,
   Executive,
-  Freelance,
-  MTR,
-  Software,
+  Fiverr,
+  Upwork,
 };
