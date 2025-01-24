@@ -208,7 +208,7 @@ const testimonials = [
 
 const projects = [
     {
-    name: "Bookfair Website",
+    name: "Bookfair",
     description:
       "A fullstack project involving flask, python, and bootstrap. Also acts as an api in which secrets, and tokens are applied along with postgresql.",
     tags: [
@@ -230,7 +230,7 @@ const projects = [
     web_link: "https://bookfair-cww7.onrender.com"
   },
     {
-    name: "Anime Discover",
+    name: "Anime Vault",
     description:
       "This project was built using nextjs and is an anime comic book cover application that fetches them using an API.",
     tags: [
