@@ -174,14 +174,6 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Stephen was an inspiration to our team, he is a hard, and creative worker who does exceptionally well under pressure in a high pace environment. We were lucky to have him onboard with Panpalz.",
-    name: "Sofia S",
-    designation: "Tech Lead",
-    company: "Panpalz",
-    image: "https://randomuser.me/api/portraits/women/21.jpg",
-  },
-  {
-    testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Stephen proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
