@@ -120,7 +120,7 @@ const experiences = [
     company_name: "Panpalz",
     icon: Panpalz,
     iconBg: "#E6DEDD",
-    date: "December 2024 - January 2025",
+    date: "October 2024 - January 2025",
     points: [
       "Built cross-platform interfaces with React-Native and Expo, contributing to company standards while exploring personal growth.",
       "Optimized and maintained continuous workflow while recognized as a resillient problem-solver and high-impact performer committed to excellence.",
@@ -134,7 +134,7 @@ const experiences = [
     company_name: "Executive Enterprise",
     icon: Executive,
     iconBg: "#E6DEDD",
-    date: "March 2019 - September 2024",
+    date: "March 2008 - September 2021",
     points: [
       "Utilized Python and machine learning methodologies to construct and deploy predictive models for customer churn, leading to a significant imporvement in customer retention.",
       "Achieved an 85% accuracy rate in identifying at-risk customers, enabling proactive retention strategies and driving a substantial increase in customer lifetime value.",
@@ -144,11 +144,11 @@ const experiences = [
     ],
   },
   {
-    title: "Fullstack Developer",
+    title: "Freelance Fullstack Developer",
     company_name: "Fiverr",
     icon: Fiverr,
     iconBg: "#E6DEDD",
-    date: "Feb 2020 - Aug 2021",
+    date: "January 2023 - May 2023",
     points: [
       "Devised scalable APIs and databases using MongoDB to enhance operational efficiency.",
       "Constructed React-bases SaaS applications employing component-driven architecture, boosting user engagement by 15%.",
@@ -158,11 +158,11 @@ const experiences = [
     ],
   },
   {
-    title: "Frontend Developer",
+    title: "Freelance Frontend Developer",
     company_name: "Upwork",
     icon: Upwork,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - May 2023",
+    date: "June 2022 - December 2022",
     points: [
       "Delivered tailored web applications for clients using NextJS and its server components.",
       "Oversaw ongoing maintenance to ensure peak performance and user satisfaction.",
